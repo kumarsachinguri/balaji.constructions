@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Balaji.Constructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Balaji.Constructions is a modern web application built for Balaji Constructions, a company specializing in constructing industrial plants, warehouses, cold stores, and more. This application is developed using React, TypeScript, Tailwind CSS, and Vite, offering a sleek and responsive user interface to showcase the company's services and projects.
 
-Currently, two official plugins are available:
+## Getting Started:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- install Node.js version ^20: [Install Node](https://nodejs.org/en/blog/release/v20.13.1)
 
-## Expanding the ESLint configuration
+Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- git clone [Clone the repository](https://github.com/kumarsachinguri/balaji.constructions.git)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- cd Balaji.Constructions
+- yarn install
+- yarn dev
