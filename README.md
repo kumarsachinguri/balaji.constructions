@@ -1,6 +1,6 @@
 # Balaji.Constructions
 
-### Balaji.Constructions is a modern web application built for Balaji Constructions, a company specializing in constructing industrial plants, warehouses, cold stores, and more. This application is developed using React, TypeScript, Tailwind CSS, and Vite, offering a sleek and responsive user interface to showcase the company's services and projects.
+Balaji.Constructions is a modern web application built for Balaji Constructions, a company specializing in constructing industrial plants, warehouses, cold stores, and more. This application is developed using React, TypeScript, Tailwind CSS, and Vite, offering a sleek and responsive user interface to showcase the company's services and projects.
 
 ## Getting Started:
 
