@@ -41,6 +41,30 @@ svg {
   align-items: center;
 }
 
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  align-content: center;
+  grid-column-gap: 1rem;
+  padding: 1rem;
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  width: 100%;
+  grid-column: 1 / -1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  font-size: 2rem;
+}
+.heading-3 {
+  font-size: 1.4rem;
+}
+
 @media screen and (max-width: 576px) {
   html {
     font-size: 80%;

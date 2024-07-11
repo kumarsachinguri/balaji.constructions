@@ -1,15 +1,15 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import ServiceList from "../components/ServiceList";
 import TopBar from "../components/TopBar";
 
 const Home = () => {
   return (
     <>
       <TopBar />
-      <header className='bg-gray-700'>
-        <Header />
-      </header>
+      <Header />
       <Hero />
+      <ServiceList />
     </>
   );
 };
