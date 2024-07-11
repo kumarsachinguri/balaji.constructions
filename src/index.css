@@ -16,6 +16,18 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-height: 100vh;
+}
+
+.maxwidth {
+  max-width: 1440px;
+}
+
+svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.hero {
+  background-image: url("images/greenhouse.jpg");
 }
