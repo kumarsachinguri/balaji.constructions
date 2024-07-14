@@ -28,12 +28,7 @@ const ServiceList = () => {
   ));
   return (
     <div className='services maxwidth mx-auto'>
-      <h2 className='heading-2 text-center mt-16 text-amber-400'>
-        Our Services
-      </h2>
-      <h3 className='heading-3 text-center mb-12 text-amber-400'>
-        Expert construction services for your residential or commercial project
-      </h3>
+      <h2 className='heading-2 text-center'>Our Services</h2>
       {serviceList}
     </div>
   );
