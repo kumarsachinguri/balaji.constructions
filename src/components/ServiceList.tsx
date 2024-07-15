@@ -28,7 +28,7 @@ const ServiceList = () => {
   ));
   return (
     <div className='services maxwidth mx-auto'>
-      <h2 className='heading-2 text-center'>Our Services</h2>
+      <h2 className='heading-2 text-center mb-8'>Our Services</h2>
       {serviceList}
     </div>
   );
