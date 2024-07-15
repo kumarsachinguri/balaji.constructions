@@ -24,7 +24,7 @@ const ServiceList = () => {
   ];
 
   const serviceList = services.map((service: Service) => (
-    <ServiceCard service={service} />
+    <ServiceCard service={service} key={service.heading} />
   ));
   return (
     <div className='services maxwidth mx-auto'>

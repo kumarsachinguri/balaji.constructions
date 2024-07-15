@@ -1,4 +1,4 @@
-import Form from "./Form";
+import ContactForm from "./Form";
 
 const Contact = () => {
   return (
@@ -8,7 +8,7 @@ const Contact = () => {
           <h2 className='text-3xl font-bold'>Do you have any questions?</h2>
           <h3 className='text-3xl uppercase'>Feel free to contact us!</h3>
         </div>
-        <Form />
+        <ContactForm />
       </div>
     </section>
   );

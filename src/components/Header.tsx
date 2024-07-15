@@ -5,7 +5,7 @@ const Header = () => {
     { label: "Contact", route: "/contact" },
   ];
   const listItems = links.map((link) => (
-    <li>
+    <li key={link.label}>
       <a>{link.label}</a>
     </li>
   ));
