@@ -144,6 +144,22 @@ svg {
   right: 0.3rem;
 }
 
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("images/warehouse6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 1rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  align-content: center;
+  grid-gap: 1rem;
+}
+
 .heading-1,
 .heading-2,
 .heading-3 {
