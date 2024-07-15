@@ -109,14 +109,14 @@ svg {
 
 .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   align-content: center;
   grid-gap: 1rem;
 }
 
 .reviews {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   justify-items: center;
   grid-gap: 1rem;
 }

@@ -47,9 +47,9 @@ const ContactForm = () => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className='grid grid-cols-4 gap-4'
+          className='grid grid-cols-1 lg:grid-cols-4 gap-4'
         >
-          <div className='col-span-2'>
+          <div className='lg:col-span-2'>
             <FormField
               control={form.control}
               name='name'
@@ -67,7 +67,7 @@ const ContactForm = () => {
               )}
             />
           </div>
-          <div className='col-span-2'>
+          <div className='lg:col-span-2'>
             <FormField
               control={form.control}
               name='email'
@@ -85,7 +85,7 @@ const ContactForm = () => {
               )}
             />
           </div>
-          <div className='col-span-3'>
+          <div className='lg:col-span-3'>
             <FormField
               control={form.control}
               name='message'
