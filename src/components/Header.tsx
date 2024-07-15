@@ -10,10 +10,10 @@ const Header = () => {
     </li>
   ));
   return (
-    <header className='bg-gray-700'>
+    <header className='bg-amber-50'>
       <div className='flex items-center gap-2 p-4 mx-auto maxwidth'>
         <img src='images/logo-bc.png' alt='Logo' className='w-16' />
-        <ul className='list-none flex items-center gap-2 text-slate-100 ms-auto'>
+        <ul className='list-none flex items-center gap-2 text-slate-900 ms-auto'>
           {listItems}
         </ul>
       </div>

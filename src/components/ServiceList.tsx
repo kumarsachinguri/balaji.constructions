@@ -27,9 +27,11 @@ const ServiceList = () => {
     <ServiceCard service={service} key={service.heading} />
   ));
   return (
-    <div className='services maxwidth mx-auto'>
+    <div className='bg-amber-50 py-20'>
       <h2 className='heading-2 text-center mb-8'>Our Services</h2>
-      {serviceList}
+      <section className='services maxwidth mx-auto px-4'>
+        {serviceList}
+      </section>
     </div>
   );
 };

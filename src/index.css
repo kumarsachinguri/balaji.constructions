@@ -111,8 +111,37 @@ svg {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   align-content: center;
-  grid-column-gap: 1rem;
-  padding: 5rem 1rem;
+  grid-gap: 1rem;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  justify-items: center;
+  grid-gap: 1rem;
+}
+
+.reviews > * {
+  position: relative;
+  z-index: 12;
+}
+
+.quo_open,
+.quo_close {
+  position: absolute;
+  display: block;
+  font-size: 12rem;
+  font-family: "Alex Brush", cursive;
+  line-height: 0.6;
+}
+
+.quo_open {
+  top: -1rem;
+  left: 0.3rem;
+}
+.quo_close {
+  bottom: -5.2rem;
+  right: 0.3rem;
 }
 
 .heading-1,
