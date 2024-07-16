@@ -9,7 +9,7 @@ export const PROJECT_LIST: Project[] = [
   },
   {
     image: "greenhouse.jpg",
-    title: "Sustainable Warehouse",
+    title: "Cold Store Facility",
     description:
       "Our innovative greenhouse utilizes advanced technologies to promote sustainable agriculture, ensuring optimal growth conditions for various plants year-round.",
   },
