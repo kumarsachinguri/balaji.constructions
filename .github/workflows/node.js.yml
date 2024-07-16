@@ -27,4 +27,14 @@ jobs:
     - run: yarn install
     - run: yarn build --if-present
 
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.GIT_CPANEL_BALAJI_SERVER }}
+        username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
+        password: ${{ secrets.GIT_CPANEL_BALAJI_PASSWORD }}
+        port: ${{ secrets.GIT_CPANEL_BALAJI_PORT }}
+        protocol: ${{ secrets.GIT_CPANEL_BALAJI_PROTOCOL }}
+        local-dir: ./dist/
+
     
