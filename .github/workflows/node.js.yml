@@ -29,5 +29,5 @@ jobs:
           server: ${{ secrets.GIT_CPANEL_BALAJI_SERVER }}
           username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
           password: ${{ secrets.GIT_CPANEL_BALAJI_PASSWORD }}
-            local-dir: ./dist/
+          local-dir: ./dist/
           server-dir: /balajiconstructions.org.in/
