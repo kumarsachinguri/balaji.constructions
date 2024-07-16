@@ -2,11 +2,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,23 +14,21 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        
-    - run: yarn install
-    - run: yarn build
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ secrets.GIT_CPANEL_BALAJI_SERVER }}
-        username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
-        password: ${{ secrets.GIT_CPANEL_BALAJI_PASSWORD }}
-        protocol: ${{ secrets.GIT_CPANEL_BALAJI_PROTOCOL }}
-        local-dir: ./dist/
-        server-dir: public_html/balajiconstructions.org.in/
+      - run: yarn install
+      - run: yarn build
 
-    
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.GIT_CPANEL_BALAJI_SERVER }}
+          username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
+          password: ${{ secrets.GIT_CPANEL_BALAJI_PASSWORD }}
+          protocol: ${{ secrets.GIT_CPANEL_BALAJI_PROTOCOL }}
+          local-dir: ./dist/
+          server-dir: /balajiconstructions.org.in/
