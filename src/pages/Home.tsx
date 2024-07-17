@@ -11,8 +11,17 @@ const Home = () => {
   return (
     <>
       <TopBar />
-      <Header />
-      <Hero />
+      <header className='header relative'>
+        <video className='w-full absolute video' autoPlay muted loop>
+          <source src='videos/Plant_01.mp4' type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
+        <div className='overlay absolute'></div>
+        <div className='header-content maxwidth mx-auto w-full'>
+          <Header />
+          <Hero />
+        </div>
+      </header>
       <ServiceList />
       <Projects />
       <Reviews />

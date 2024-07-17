@@ -10,7 +10,7 @@ const ServiceList = () => {
       btn: "",
     },
     {
-      img: "warehouse1.jpg",
+      img: "warehouse6.jpg",
       heading: "Warehouse Construction",
       text: "At Balaji Constructions, we specialize in designing and building state-of-the-art warehouses that meet your specific storage needs. Our warehouses are built with robust structures, efficient layouts, and the latest technology to ensure maximum storage capacity and ease of operations. Whether you need a small storage unit or a large-scale distribution center, we deliver high-quality solutions that enhance your business efficiency and growth.",
       btn: "",
