@@ -6,7 +6,7 @@ const ServiceCard = ({ service }: { service: Service }) => {
       <img
         src={`images/${service.img}`}
         alt={service.heading}
-        className='h-60 w-full object-cover'
+        className='h-60 w-full rounded-sm object-cover'
       />
       <h3 className='heading-3 text-left'>{service.heading}</h3>
       <p className='text-justify'>{service.text.slice(0, 300)}...</p>

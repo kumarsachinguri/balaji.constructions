@@ -48,7 +48,7 @@ const Projects = () => {
           {/* Mapping over the projects */}
           {projects.map((project) => (
             <CarouselItem key={project.title}>
-              <Card>
+              <Card className='border-none'>
                 <CardContent className='flex aspect-video items-center justify-center p-0'>
                   <Dialog>
                     <DialogTrigger asChild>
