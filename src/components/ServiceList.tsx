@@ -4,13 +4,13 @@ import ServiceCard from "./ServiceCard";
 const ServiceList = () => {
   const services: Service[] = [
     {
-      img: "warehouse6.jpg",
+      img: "greenhouse.jpg",
       heading: "Cold Store Construction",
       text: "Balaji Constructions offers top-notch cold store construction services to keep your perishable goods at optimal temperatures. Our cold storage solutions are tailored to meet industry standards, ensuring energy efficiency, temperature control, and safety. We use cutting-edge insulation and refrigeration systems to build facilities that preserve the quality and extend the shelf life of your products. Trust us to create a reliable cold storage environment that supports your business needs.",
       btn: "",
     },
     {
-      img: "greenhouse.jpg",
+      img: "warehouse6.jpg",
       heading: "Warehouse Construction",
       text: "At Balaji Constructions, we specialize in designing and building state-of-the-art warehouses that meet your specific storage needs. Our warehouses are built with robust structures, efficient layouts, and the latest technology to ensure maximum storage capacity and ease of operations. Whether you need a small storage unit or a large-scale distribution center, we deliver high-quality solutions that enhance your business efficiency and growth.",
       btn: "",
