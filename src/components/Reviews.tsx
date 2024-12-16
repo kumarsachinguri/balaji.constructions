@@ -15,7 +15,7 @@ const Reviews = () => {
   const reviews: Review[] = REVIEW_LIST;
 
   return (
-    <section className='py-20 bg-amber-50'>
+    <section className='py-20 bg-amber-50' id='about'>
       <h2 className='heading-2 text-center mb-12'>
         {StringConstant.reviewHeading}
       </h2>

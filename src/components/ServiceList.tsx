@@ -27,7 +27,7 @@ const ServiceList = () => {
     <ServiceCard service={service} key={service.heading} />
   ));
   return (
-    <div className='bg-amber-50 py-20'>
+    <div className='bg-amber-50 py-20' id='services'>
       <h2 className='heading-2 text-center mb-8'>Our Services</h2>
       <section className='services maxwidth mx-auto px-4'>
         {serviceList}

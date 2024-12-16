@@ -3,10 +3,10 @@ import Icon from "../core/Icon";
 import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 
 const Footer = () => {
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [currentYear] = useState(new Date().getFullYear());
 
   return (
-    <footer className='footer text-amber-50'>
+    <footer className='footer text-amber-50' id='contact'>
       <section className='footer-grid maxwidth mx-auto'>
         <Card className='border-none bg-transparent'>
           <CardHeader>

@@ -31,7 +31,7 @@ const Projects = () => {
   const projects: Project[] = PROJECT_LIST;
 
   return (
-    <section className='bg-amber-400 py-20 px-8'>
+    <section className='bg-amber-400 py-20 px-8' id='portfolio'>
       {/* Project Heading */}
       <h2 className='maxwidth mx-auto text-center uppercase heading-2 mb-8'>
         {StringConstant.projectHeading}

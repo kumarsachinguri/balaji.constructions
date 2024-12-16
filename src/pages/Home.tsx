@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import BackToTop from "../components/BackToTop";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,6 +10,20 @@ import ServiceList from "../components/ServiceList";
 import TopBar from "../components/TopBar";
 
 const Home = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <TopBar />
@@ -27,6 +43,7 @@ const Home = () => {
       <Reviews />
       <Contact />
       <Footer />
+      {scrolled ? <BackToTop /> : null}
     </>
   );
 };

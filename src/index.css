@@ -210,6 +210,20 @@ svg {
   font-size: 1.4rem;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 0.6rem;
+  right: 0.8rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  box-shadow: 0 0 2rem #b7b7b7;
+}
+
 @media screen and (max-width: 992px) {
   .copyright {
     flex-direction: column;
